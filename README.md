@@ -4,7 +4,7 @@ This is an example of a ASP.net Core front-end web service. It's used as part of
 # How to run the project
 First build the docker image by running the following command:
 ```
-docker build -t your-docker-hub-account-name/mesos-tutorial-front-end-aspcore 
+docker build -t your-docker-hub-account-name/mesos-tutorial-front-end-aspcore .
 ```
 Then run the sample service:
 ```
