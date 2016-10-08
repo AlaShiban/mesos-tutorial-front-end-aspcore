@@ -8,7 +8,7 @@ docker build -t your-docker-hub-account-name/mesos-tutorial-front-end-aspcore .
 ```
 Then run the sample service:
 ```
-docker run -p 5000:5000 -e AppSettings:ImageProcessorUrl=http://dockerMachineIp:8080/submit -it ashiban/mesos-tutorial-front-end-aspcore
+docker run -p 5000:5000 -e AppSettings:ImageProcessorUrl=http://dockerMachineIp:8080/submit -it your-docker-hub-account-name/mesos-tutorial-front-end-aspcore
 ```
 
 you should now be able to access http://localhost:5000
